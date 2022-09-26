@@ -1,27 +1,27 @@
-    <!DOCTYPE html>
-       <html lang="hu">
-          <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
-        </head>
-    <body>
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP oldala</title>
+</head>
+<body>
+    <h1>Jakab Bende</h1>
+    <h2>Jakab Bende</h2>
+    <h3>Jakab Bende</h3>
+    <h4>Jakab Bende</h4>
+    <h5>Jakab Bende</h5>
+    <h6>Jakab Bende</h6>
 
-        <h1>Jakab Bende</h1>
-        <h2>Jakab Bende</h2>
-        <h3>Jakab Bende</h3>
-        <h4>Jakab Bende</h4>
-        <h5>Jakab Bende</h5>
-        <h6>Jakab Bende</h6>
+    <p>
+        blashdzhbwg
+        <b>miazisten</b>
+        atyaég
+        abzemmye
+        <i>sadnuiiyjanos</i>
+    </p>
 
-        <p>helló szia 
-            nem tudom
-           <i>mit irjak</i> 
-           <b> de ja</b>
-        
-        </p>
+    <img src="img/collage.avif" alt="A képen látható egy csajszinak a kollázsképe..." title="kollázs">
 
-
-
-    </body>
-    </html>
+</body>
+</html>
