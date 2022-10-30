@@ -1,10 +1,20 @@
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="hu">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Űrlap</title>
+
+        <style>
+            fieldset{
+                background-color: rgb(234, 246, 250);
+            }
+            p{
+                color: rgb(0, 0, 0);
+            }
+            
+        </style>
 
 
     </head>
@@ -19,23 +29,35 @@
         <a href="urlap.html"> ŰRLAP</a> |
         
         <br>
-
-
+        <br>
+        <img src="img/susi.jpg" width="455">
 
         <form name="urlap">
+            <fieldset>
+                <legend> <h3> Személyes Adatok: </h3> </legend>
+                    <p>Név:<input type="text" name="nev" ></p>
 
-            <legend>Személyes Adatok:</legend>
-                <p>Név:<input type="text" name="nev" ></p>
-
-                <p>Telefonszám: <input type="number" name="telefonszám"></p>
+                    <p>Telefonszám: <input type="number" name="telefonszám"></p>
             
-                <p>Cím: <input type="text" name="cím"></p>
-                
-            <legend>Mennyiség:</legend>
+                    <p>Cím: <input type="text" name="cím"></p>
+            </fieldset>
+            <fieldset>   
+                <legend> <h3> Mennyiség: </h3> </legend>
                 <p>
-                    <input type="radio" name="meret"> 8 darab   <input type="radio" name="meret"> 10 darab  <input type="radio" name="meret"> 12 darab
+                        <label>  <input type="radio" name="meret"> 8 darab </label> 
+                        <label>  <input type="radio" name="meret"> 10 darab  </label>
+                        <label>  <input type="radio" name="meret"> 12 darab  </label>
                 </p>
-
+            </fieldset>
+            <fieldset>
+                <legend> <h3> Fizetési mód: </h3></legend>
+                    <p> <label> <input type="radio" name="fizetes"> Készpénz </label> </p>
+                    <p> <label> <input type="radio" name="fizetes"> Bank Kártya </label>
+                    <p>  Kártya adatok: <input type="number"></p>
+                        <p> Lejárati idő: <input type="number"> CVC: <input type="number"></p>
+                        <p>Kártyatulajdonos neve: <input type="text"></p>
+                    </p>
+            </fieldset>
 
 
         </form>
