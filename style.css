@@ -1,0 +1,15 @@
+
+a {
+    text-decoration: none;
+    color: lightsalmon;
+    transition: 25ms;
+}
+
+
+a:hover {
+    color: red;
+}
+
+.active{
+    background-color: rgb(192, 192, 226);
+}
