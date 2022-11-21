@@ -71,7 +71,7 @@ li.jb a:hover:not(.active) {
   float: left;
 }
 
-img{
+img.evszakokcontent{
   width: 250px;
   height: 150px;
   border: 3px solid black;
@@ -79,7 +79,7 @@ img{
   margin: 20px;
 }
 
-img:hover{
+img:hover.evszakokcontent{
     transform: scale(1.2);
 }
 
