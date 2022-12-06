@@ -27,13 +27,6 @@ table, th, td {
 }
 
 
-footer {
-    text-align: center;
-    padding: 3px;
-    background-color: rgb(79, 118, 228);
-    color: white;
-}
-
 caption{
   font-size: x-large;
 }
@@ -87,3 +80,14 @@ img:hover.evszakokcontent{
 img:hover + p{
     font-size: x-large ;
 }
+
+.footer{
+    background-color: rgb(175, 175, 175);
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 100%;
+    clear: left;  
+    margin-top: 25px;
+}
+
