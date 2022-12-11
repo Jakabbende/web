@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(212, 230, 247);
 }
 
 a:hover {
@@ -82,7 +82,7 @@ img:hover + p{
 }
 
 .footer{
-    background-color: rgb(175, 175, 175);
+    background-color: #c7dbff;
     padding: 10px;
     text-align: center;
     position: sticky;
@@ -90,4 +90,6 @@ img:hover + p{
     clear: left;  
     margin-top: 25px;
 }
+
+
 
