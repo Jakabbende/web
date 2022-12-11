@@ -12,55 +12,67 @@
         <link rel="manifest" href="site.webmanifest">
     </head>
     <body>
-        
-        <ul class="jb">
-            <li class="jb"><a href="index.html"> Főoldal</a></li>
-            <li class="jb"><a href="keplink.html"> Képlinkes</a></li>
-            <li class="jb"><a href="lista.html"> Lista</a></li>
-            <li class="jb"><a href="tablazat.html"> Táblázat</a></li>
-            <li class="jb"><a class="active" href="urlap.html"> Űrlap</a></li>
-            <li class="jb"><a href="evszakok.html">Évszakok</a></li>
-        </ul>
 
-        <br>
-        <img src="img/susi.jpg" width="455">
+        <div style="background-color:#c7dbff;padding:15px;text-align:center;">
+            <h1>Sziusmius</h1>
+          </div>
+          
+        <div style="overflow:auto">
+            <div class="menu">
+              <a href="index.html">Főoldal</a>
+              <a href="keplink.html">Képlink</a>
+              <a href="lista.html">Lista</a>
+              <a href="tablazat.html">Táblázat</a>
+              <a href="urlap.html">Űrlap</a>
+              <a href="evszakok.html">Évszakok</a>
+            </div>
+          
+            <div class="main">
+              <h2>Űrlap</h2>
+              
+              <img src="img/susi.jpg" width="455">
 
         <form name="urlap">
-            <fieldset>
-                <legend> <h3> Személyes Adatok: </h3> </legend>
-                    <p>Név:<input type="text" name="nev" ></p>
+                <fieldset>
+                    <legend> <h3> Személyes Adatok: </h3> </legend>
+                        <p>Név:<input type="text" name="nev" ></p>
 
-                    <p>Telefonszám: <input type="tel" name="telefonszám"></p>
-            
-                    <p>Cím: <input type="text" name="cím"></p>
-            </fieldset>
-            <fieldset>   
-                <legend> <h3> Mennyiség: </h3> </legend>
-                <p>
-                        <label>  <input type="radio" name="meret"> 8 darab </label> 
-                        <label>  <input type="radio" name="meret"> 10 darab  </label>
-                        <label>  <input type="radio" name="meret"> 12 darab  </label>
-                </p>
-            </fieldset>
-            <fieldset>
-                <legend> <h3> Fizetési mód: </h3></legend>
-                    <p> <label> <input type="radio" name="fizetes"> Készpénz </label> </p>
-                    <p> <label> <input type="radio" name="fizetes"> Bank Kártya </label>
-                    <p>  Kártya adatok: <input type="number"></p>
-                        <p> Lejárati idő: <input type="number"> CVC: <input type="number"></p>
-                        <p>Kártyatulajdonos neve: <input type="text"></p>
+                        <p>Telefonszám: <input type="tel" name="telefonszám"></p>
+                    
+                        <p>Cím: <input type="text" name="cím"></p>
+                </fieldset>
+                <fieldset>   
+                    <legend> <h3> Mennyiség: </h3> </legend>
+                    <p>
+                            <label>  <input type="radio" name="meret"> 8 darab </label> 
+                            <label>  <input type="radio" name="meret"> 10 darab  </label>
+                            <label>  <input type="radio" name="meret"> 12 darab  </label>
                     </p>
-            </fieldset>
-
-
+                </fieldset>
+                <fieldset>
+                    <legend> <h3> Fizetési mód: </h3></legend>
+                        <p> <label> <input type="radio" name="fizetes"> Készpénz </label> </p>
+                        <p> <label> <input type="radio" name="fizetes"> Bank Kártya </label>
+                        <p>  Kártya adatok: <input type="number"></p>
+                            <p> Lejárati idő: <input type="number"> CVC: <input type="number"></p>
+                            <p>Kártyatulajdonos neve: <input type="text"></p>
+                        </p>
+                    </fieldset>
         </form>
-
-
-        <div class="footer">
+    </div>
+          
+            <div class="right">
+              <h2>Rólam</h2>
+              <img src="img/nice kép.jpg" alt="Az epikus kollázsom látható" title="az én személyes kollázsom látható" width="350">
+            </div>
+          </div>
+          
+          <div class="footer">
             <footer>
                 <h4>Copyright JB</h4>
             </footer>
         </div>
+
 
     </body>
     </html>
