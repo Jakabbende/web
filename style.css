@@ -133,3 +133,20 @@ img:hover + p{
     }
 }
 
+fieldset.szamologep{
+    background-color: rgba(135, 243, 243, 0.795);
+    border-color: blue;
+}
+
+legend.szamologepleg{
+    color: black;
+}
+
+input.buttonszam{
+    width: 50px;
+    border-color: blue;
+}
+
+input.szaminp{
+    border-color: blue;    
+}

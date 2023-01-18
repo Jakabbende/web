@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számoló</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+
+<body>
+
+    <div style="background-color:#c7dbff;padding:15px;text-align:center;">
+        <h1>Sziusmius</h1>
+    </div>
+
+    <div style="overflow:auto">
+        <div class="menu">
+            <a href="index.html">Főoldal</a>
+            <a href="keplink.html">Képlink</a>
+            <a href="lista.html">Lista</a>
+            <a href="tablazat.html">Táblázat</a>
+            <a href="urlap.html">Űrlap</a>
+            <a href="evszakok.html">Évszakok</a>
+            <a href="homoktovis.html">Homoktövis</a>
+            <a href="szamologep.html">Számoló</a>
+        </div>
+
+        <div class="main">
+            <fieldset class="szamologep">
+                <legend class="szamologepleg">Négy alapművelet javascriptel</legend>
+                <form action="javascript:void(0)">
+                    <input type="number" name="szam1" id="a" placeholder="Szám1" class="szaminp">
+                    <input type="number" name="szam2" id="b" placeholder="Szám2" class="szaminp">
+                    <input type="text" name="szam" id="c" readonly placeholder="Eredmény" class="szaminp">
+                    <br><br>
+                    <input type="button" value="+" onclick="ad()" class="buttonszam">
+                    <input type="button" value="-" onclick="kiv()" class="buttonszam">
+                    <input type="button" value="*" onclick="szor()"  class="buttonszam">
+                    <input type="button" value=":" onclick="oszt()" class="buttonszam">
+                    <input type="reset" value="Törlés" class="buttonszam">
+                </form>
+            </fieldset>
+            <script>
+                function ad() {
+                    c.value = Number(a.value) + Number(b.value)
+                }
+                function kiv() {
+                    c.value = Number(a.value) - Number(b.value)
+                }
+                function szor() {
+                    c.value = Number(a.value) * Number(b.value)
+                }
+                function oszt() {
+                    c.value = Number(a.value) / Number(b.value)
+                }
+            </script>
+
+        </div>
+
+        <div class="right">
+            <h2>Rólam</h2>
+            <img src="img/nice kép.jpg" alt="Az epikus kollázsom látható" title="az én személyes kollázsom látható"
+                width="350">
+        </div>
+    </div>
+
+    <div class="footer">
+        <footer>
+            <h4>Copyright JB</h4>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
+</body>
+
+</html>
