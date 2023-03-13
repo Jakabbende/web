@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitagorasz</title>
+    <style>
+        input{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <input type="number" id="a" placeholder="Háromszög egyik rövid oldala">
+    <input type="number" id="b" placeholder="Háromszög másik rövid oldala">
+    <input type="text" id="c" readonly placeholder="A háromszög hosszú oldala">
+    <input type="button" value="Szamol" onclick="rovidoldal()">
+
+
+    <script>
+        
+        function rovidoldal(){
+            c.value = Math.sqrt((a.value * a.value) + (b.value * b.value))
+        }
+    </script>
+</body>
+</html>

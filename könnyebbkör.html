@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kötháromszög</title>
+</head>
+<body>
+    
+
+    <h1>Képcsere feladat</h1>
+    <input type="button" value="képcsere" onclick="cser()">
+    <input type="button" value="háttércsere" onclick="hatter()">
+    <br>
+    <img src="img/kör.jpg" alt="kör vagy háromszög" >
+
+    <script>
+        var gomb = 1;
+        function cser(){
+                if (gomb == 1) {
+                document.getElementById("cser").src = "img/haromszog.jpg";
+                gomb = 1;
+            }
+            else {
+                document.getElementById("cser").src = "img/kör.jpg";
+                gomb = 1;
+            }
+        
+        var hat = 1;
+        function hatter() {
+                if (hat == 1)
+                document.body.style.backgroundColor = "green";
+                hat = 2;
+                } else if (hat == 2) {
+                    document.body.style.backgroundColor = "yellow";
+                    hat = 3;
+                } else {
+                    document.body.style.backgroundColor = "cyan";
+                    hat = 1;
+                }
+            }
+    </script>
+</body>
+</html>

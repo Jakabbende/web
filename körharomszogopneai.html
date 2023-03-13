@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <img id="photo" src="img/kör.jpg">
+    <br>
+    <button id="button">fotó változtatása</button>
+
+    <script>
+        document.querySelector("#button").addEventListener("click", togglePhoto);
+    
+        let currentPhoto = "img/kör.jpg";
+    
+    function togglePhoto() {
+      const photo = document.querySelector("#photo");
+      if (currentPhoto === "img/kör.jpg") {
+        photo.src = "img/haromszog.jpg";
+        currentPhoto = "img/haromszog.jpg";
+      } else {
+        photo.src = "img/kör.jpg";
+        currentPhoto = "img/kör.jpg";
+      }
+    }
+</script>
+
+</body>
+</html>
+
+
+
