@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        header {
+            background-color: gray;
+            padding: 2vw;
+        }
+
+        h2 {
+            text-align: center;
+            color: white;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        ul {
+            padding: 4 6;
+            margin-top: 6vh;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        footer img {
+            width: 6vw;
+        }
+
+        footer {
+            background-color: teal;
+            text-align: center;
+            bottom: 0%;
+        }
+
+        table,
+        td,
+        tr {
+            border: solid 2px black;
+            padding: 15px;
+        }
+
+        table img {
+            width: 5vw;
+        }
+
+        table {
+            width: 95%;
+            margin: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h2>Helló Szius</h2>
+    </header>
+
+    <div class="content">
+        <div class="row">
+            <div class="col-sm-8">
+                <img src="https://apod.nasa.gov/apod/image/2209/Traful-Lake-label.jpg" alt="Kép">
+            </div>
+            <div class="col-sm-4">
+                <ul>
+                    <li>Hello</li>
+                    <li>Üdvözöllek</li>
+                    <li>Az</li>
+                    <li>Oldalon</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Anyám Tyúkja</h3>
+                <p> Ej mi a kő! tyúkanyó, kend
+                    A szobában lakik itt bent?
+                    Lám, csak jó az isten, jót ád,
+                    Hogy fölvitte a kend dolgát!
+                    <br>
+                    Itt szaladgál föl és alá,
+                    Még a ládára is fölszáll,
+                    Eszébe jut, kotkodákol,
+                    S nem verik ki a szobábol.
+                    <br>
+                    Dehogy verik, dehogy verik!
+                    Mint a galambot etetik,
+                    Válogat a kendermagban,
+                    A kiskirály sem él jobban.</p>
+            </div>
+            <div class="col-sm-8">
+                <table>
+                    <tr>
+                        <td colspan="6">Perifériák</td>
+
+                    </tr>
+                    <tr>
+                        <td><img src="https://www.infolex.hu/kep/66396/nagy/msi-rtx-2080-gaming-x-trio-8gb-gddr6-videokartya.jpg"
+                                alt="videókártya"></td>
+                        <td><img src="https://s13emagst.akamaized.net/products/14335/14334593/images/res_6f44914064e6943f5dcd6d5e16d2b3a4.jpg?width=720&height=720&hash=F63E558C118B7F85525AD27997BC04C1"
+                                alt="Processzor"></td>
+                        <td><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSkuzfs9y4UB5VKqBrGp2kjNsKHQtLKz939qAcMJc0jtoEDn5M2RojIoqe-iJZnorZxFtQwMGHCRaJL8q4vnWmL9GfMHuK7SstG_5mQD_0g80c1PjIBTkVt&usqp=CAE"
+                                alt="HDD"></td>
+                        <td><img src="https://s13emagst.akamaized.net/products/36078/36077992/images/res_33b60adf589ef49e0233d4257c7f56f3.jpg"
+                                alt="SSD"></td>
+                        <td><img src="data:image/png;base64,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"
+                                alt=""></td>
+                        <td><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRVigCkioD7BLTppujKihQ4ATbg2ldhcGD6NdgDao9pf1tuxbscGocEjTuYjofzI10A2KCJvPfQaw&usqp=CAc"
+                                alt="Proci hűtő"></td>
+                    </tr>
+                    <tr>
+                        <td>Videókártya</td>
+                        <td>Processzor</td>
+                        <td>Merevlemez</td>
+                        <td>SSD</td>
+                        <td>Tápegység</td>
+                        <td>Liquid Processzor hűtő</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+    <footer>
+        <img src="https://sandorpeteer.github.io/9A_2023_BUFE_SHOP/img/bufe_logo.png" alt="">
+    </footer>
+
+
+
+
+</body>
+
+</html>
